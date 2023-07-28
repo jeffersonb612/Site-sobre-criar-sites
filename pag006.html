@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+      <style>
+          mark {
+            background-color: rgb(0, 255, 85);
+              }
+      </style>
+    <title>Formatação de Texto</title>
+</head>
+<body> <!--so use a as formas semanticas -->
+    <h1>Principais formatações</h1>
+    <hr>
+    <h2>Negrito/Destaque</h2>
+    <p>Nessa frase ultizamos a tag &lt;b&gt;<b> que deixa em negrito</b> (não semantica).</p>
+    <p>Nessa frase ultizamos o destaq &lt;strong&gt; <strong>que deixa em Destaque</strong> que e uma forma semantica que tem sentido (semantica). </p>
+    
+    <h2>italico/Ênfase</h2>
+    <p>Nesta frase, temos um <i>termo em itálico usando</i> a tag &lt;i&gt; (não semantica).</p>
+    <p>nesta frase, temos um <em>termo em énfase usando</em> a tag &lt;em&gt; (semantica).</p>
+    
+    <h2>Textos marcados</h2>
+    <p>podemos tbm criar um <mark>texto marcado</mark> com a tag &lt;mark&gt; </p>
+    <p>e no outro paragrafo <mark>temos outro texto marcado</mark> no final</p>
+    
+    <h2>Texto grande e pequeno</h2><!--numca use o big ja esta obsoleto-->
+    <p>Estamos criando um texto <big>grande</big> e outro <small>pequeno</small> nexte paragrafo</p>
+    
+    <h2>Texto deletado</h2>
+    <p>podemos marcar o <del>texto como excluido</del> para marcar que ele deve ser lido mais nao conciderado</p>
+    
+    <h2>Texto inserido</h2>
+    <p>podemos marcar um <ins>texto como incerido</ins> para dar uma énfase que ele foi adicionado depois</p>
+    <p>tem tbm o <u>soblinhado</u> com a tag &lt;u&gt; que ja e obsoleta</p>
+    
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+    
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>0</p>
+    
+    <h1>Outras formatações</h1>
+    <hr>
+    <h2>Codigo-fonte / pre-formatado</h2>
+    <p>O comando <code>document.getElementById('teste')</code>é escrito em linguagem JavaScript.</p>
+    
+    <pre>
+        <code>
+    num = input('digite um numero :')
+    if num % 2 == 0:
+        print(f'O numero {num} é PAR')
+    else:
+        print(f'Fim do programa')
+        </code>
+    </pre>
+
+    <h2>citações</h2>
+    <p>como diria o pai de um amigo: <q>o computador e um burro muito rapido</q></p>
+
+    <h2>Citações-completas</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:<p>
+    <blockquote cite="https://books.google.com.br/books? ved=0ahUKEwjH5-PevNboAhVNIbkGHcoxC0gQ6AEIOJAC#v=onepage& id=E8ZtDWAAQBAJ&pg=PA17&dq=HTML&hl=pt-BR&sa=X&
+    q=HTML&f=false"> 
+    A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+    </blockquote>
+
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperTex Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando</p>
+
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou criando coisas em HTML.</bdo></p>
+
+    <p><a href="index.html" rel="prev" target="_self">volta</a></p>
+</body>
+</html>
